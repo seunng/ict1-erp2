@@ -155,7 +155,7 @@
 			<groupId>com.oracle</groupId>
 			<artifactId>ojdbc7</artifactId>
 			<version>12.1.0</version>
-		</dependency>ji
+		</dependency>
 
 		<!-- commons-dbcp2 -->
 		<!-- Hikaricp -->
