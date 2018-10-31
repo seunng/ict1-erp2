@@ -1,0 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+ <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:set var="rPath" value="${pageContext.request.contextPath}"/>
+<c:set var="resPath" value="${rPath}/resoutces"/>
+<c:set var="dxPath" value="${resPath}/dx/codebase"/>
+<c:set var="skyPath" value="${resPath}/dx/skins/skyblue"/>
+<c:set var="stylesheet" value="${dxPath}/fonts/font_roboto/roboto.css"/>
+<c:set var="stylesheet" value="${dxPath}dhtmlx.css"/>
+<script src="${dxPath}/dhtmlx.js">
+
+
