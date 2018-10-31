@@ -16,7 +16,8 @@ public class Aspectlogger {
 	private static final Logger logger = LoggerFactory.getLogger(Aspectlogger.class);
 	@Before("execution(*com.ict.erp.controller.URIcontroller.*(..))")
 	public void beforeLog(JoinPoint jp) {
-		Logger.debug("jp=>{}",jp);
+		logger.debug("jp=>{}",jp);
 		
 	}
+}
 
